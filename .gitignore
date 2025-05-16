@@ -1,18 +1,218 @@
+#######################################
+# Operating System Files
+#######################################
+
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux desktop environment
+.Trash-*
+.nfs*
 
 # Windows
 Thumbs.db
-desktop.ini
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Python artifacts
+# System-wide ignore
+*.bak
+*.tmp
+*.sw?
+
+#######################################
+# Python Cache & Bytecode
+#######################################
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
 
-# Editor temp files
+#######################################
+# Python Virtual Environments
+#######################################
+# Common local venv folders
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.env
+
+#######################################
+# Package Management
+#######################################
+# Setuptools, pip, wheel, distutils
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+*.wheel
+
+# Poetry
+poetry.lock
+# Pipenv
+Pipfile.lock
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+#######################################
+# Unit Test / Coverage Reports
+#######################################
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+test-results/
+.pytest_cache/
+
+#######################################
+# Type Checking Tools
+#######################################
+.mypy_cache/
+.pyright/
+.pyre/
+
+#######################################
+# Linting / Formatting
+#######################################
+ruff_cache/
+.pylint.d/
+flake8.log
+
+#######################################
+# Jupyter Notebooks
+#######################################
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+#######################################
+# Editor & IDE Files
+#######################################
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+
+# Thonny
+.thonny/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.pydevproject
+
+# Spyder
+.spyproject/
+.ropeproject
+
+# Emacs/Vim
 *~
 *.swp
 *.swo
+*.swn
+*.sml
+*.sublime-*
 
-# VSCode (optional)
-.vscode/
+# Other temp/editor files
+*.orig
+*.rej
+*#
+.#*
+
+#######################################
+# GitHub & Codespaces
+#######################################
+.devcontainer/
+.github/
+.gitattributes
+.gitmodules
+*.patch
+*.diff
+
+#######################################
+# Logs & Dumps
+#######################################
+*.log
+*.out
+*.err
+*.stackdump
+
+#######################################
+# Backup Files
+#######################################
+*.bak
+*.backup
+*.old
+*.save
+
+#######################################
+# Local Configs & Overrides
+#######################################
+*.local
+*.override
+config.ini
+secrets.yaml
+credentials.json
+
+#######################################
+# CircuitPython / MicroPython Specific
+#######################################
+lib/
+*.mpy
+boot_out.txt
+code.py
+main.py
+settings.toml
+
+# Board-specific system files
+.secrets/
+boot.py
+libdeps/
+.uf2
+# Pico/Arduino flash or serial tools
+*.uf2
+*.bin
+*.hex
+
+#######################################
+# Optional: Temporary Files from Compression/Archiving
+#######################################
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.gz
+*.xz
+*.lzma
+
+#######################################
+# Optional: Local Project-Specific Ignore
+#######################################
+# (useful for user-generated files in your structure)
+project.log
+notes.md
+local_settings.py
+*.draft.*
