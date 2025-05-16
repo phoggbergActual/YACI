@@ -12,7 +12,7 @@
       <title>Episode 1: Why YACI Exists</title>
       <description>The origin story and purpose behind Yet Another Check-In.</description>
       <pubDate>Fri, 17 May 2024 12:00:00 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/phoggbergActual/YACI/main/docs/podcast/YACI_Ep1.mp3" length="20128985" type="audio/mpeg"/>
+      <enclosure url="https://phoggbergactual.github.io/YACI/podcast/yaci-ep1.mp3" length="20128085" type="audio/mpeg"/>
       <guid>yaci-ep1</guid>
     </item>
   </channel>
