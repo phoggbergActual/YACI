@@ -16,6 +16,22 @@ Yaky was designed to support individual and team developers who range from loose
 - Updates `Version:` and `Commit Tag:` lines in source
 - Git commit and tag in one step
 - Cross-platform (Bash, PowerShell, CMD)
+  
+## 🔧 Configuration
+
+YACI reads settings from `yaci.cfg`, which defines how versioning, tagging, and commit behavior is managed.
+
+Here is a sample:
+
+```ini
+[version]
+base = 0.1
+auto_increment = true
+...
+```
+
+You can configure versioning style, commit templates, exclusions, and optional hooks. See `yaci.cfg` for details.
+
 
 ## 🧑‍💻 About the Author
 
