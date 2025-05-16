@@ -1,0 +1,86 @@
+YACI - Yet Another Check-In Utility
+====================================
+
+Purpose
+-------
+YACI is a lightweight, cross-platform utility for automatic version tagging and commit tracking.
+It’s designed for solo devs, small teams, and anyone tired of “version drift” and inconsistent history.
+
+Think of it as `git commit` with discipline.
+
+Why Use YACI?
+-------------
+YACI solves a problem every developer has dealt with:
+
+- “Did I remember to bump the version number?”
+- “Why did that bug just start showing up?”
+- “What changed between 0.3.2 and 0.3.3?”
+- “Which file did I forget to tag?”
+
+YACI helps by:
+- Automatically updating version numbers inside your source files
+- Keeping your commits timestamped and tagged with precision
+- Preventing silent changes and making history explain itself
+- Supporting forensic-level debugging:
+  - When was a line last touched?
+  - Which version introduced the behavior?
+  - Who made the last change — and what were they trying to fix?
+
+It’s not about blame. It’s about traceability. 
+If a symptom emerges later, YACI helps isolate what changed and where to look first.
+
+Philosophy
+----------
+- Code isn’t self-documenting. Your intent should be.
+- Version control isn’t just for rollback — it’s a narrative.
+- Even solo scripts deserve version hygiene.
+- If you can grep a version string, you should be able to trust it.
+
+YACI enforces:
+- Adding a `# Version: x.y.z` line (or `//`, `;`, etc.)
+- Updating that line consistently
+- Writing actual commit messages
+
+It won’t force you to write meaningful comments — but it makes sloppiness visible.
+Eventually, you’ll thank yourself.
+
+Installation
+------------
+1. Clone or download this repo.
+2. Choose a script:
+   - `YACI.sh`    → Bash (Linux, macOS, WSL)
+   - `YACI.ps1`   → PowerShell (Windows or cross-platform)
+   - `YACI.cmd`   → CMD (fallback on older systems)
+
+3. Make sure the script is executable and in your PATH.
+
+Configuration
+-------------
+YACI uses a simple `yaci.cfg` file in INI format. You define:
+
+- What the starting version is
+- Whether to auto-increment PATCH
+- A regex pattern to find and update version lines
+- Optional hooks before/after commits
+- Commit message formats (including audit tags)
+
+Usage
+-----
+1. Add a version line to your code:
+
+   # Version: 0.2.3
+   // Version: 0.2.3
+   ; Version: 0.2.3
+
+2. Run YACI with optional version override:
+
+   ./YACI.sh -v 1.4.0
+
+3. YACI will:
+   - Set or bump the version
+   - Update source files
+   - Create a Git commit with timestamp and version tag
+
+License
+-------
+MIT License. See LICENSE file.
