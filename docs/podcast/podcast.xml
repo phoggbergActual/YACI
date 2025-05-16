@@ -3,12 +3,15 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>no</itunes:explicit>
     <title>YACI Podcast</title>
     <link>https://github.com/phoggbergActual/YACI</link>
     <description>A podcast for developers who care about versioning and traceability.</description>
     <language>en-us</language>
     <itunes:image href="https://phoggbergactual.github.io/YACI/podcast/cover.jpg"/>
     <item>
+      <link>https://github.com/phoggbergActual/YACI</link>
       <title>Episode 1: Why YACI Exists</title>
       <description>The origin story and purpose behind Yet Another Check-In.</description>
       <pubDate>Fri, 17 May 2024 12:00:00 GMT</pubDate>
