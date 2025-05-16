@@ -1,22 +1,6 @@
 @echo off
-:: YACI.cmd — Windows launcher for Git Bash or PowerShell version of YACI
+rem YACI.cmd - Windows CMD version
+rem Version: 0.1.1
+rem License: MIT
 
-:: Usage:
-::    YACI.cmd yourfile.py "Commit message"
-::    YACI.cmd yourfile.py -v1.3 "Message"
-
-where bash >nul 2>nul
-if %errorlevel%==0 (
-    bash YACI.sh %*
-    exit /b %errorlevel%
-)
-
-where powershell >nul 2>nul
-if %errorlevel%==0 (
-    powershell -ExecutionPolicy Bypass -File ./YACI.ps1 %*
-    exit /b %errorlevel%
-)
-
-echo [ERROR] No compatible shell environment found.
-echo Please install Git Bash (https://gitforwindows.org) or PowerShell Core.
-exit /b 1
+echo YACI invoked. Placeholder for check-in logic.

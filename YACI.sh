@@ -1,18 +1,6 @@
 #!/bin/bash
-: '
-YACI.sh — Cross-platform Git check-in script (Bash version)
+# YACI: Yet Another Check-In Utility
+# Version: 0.1.1
+# License: MIT
 
-Usage:
-    ./YACI.sh <filename> [-vX.Y[.Z]] "Commit message"
-
-- Increments version automatically if -v is not provided
-- Updates Version: and Commit Tag: lines in the file
-- Requires a non-empty commit message
-- Adds timestamp and user info
-- Commits changes and creates a semantic version Git tag
-
-Designed for solo or team development environments.
-'
-
-# Placeholder script body
-echo "YACI.sh script placeholder"
+echo "YACI invoked. Placeholder for check-in logic."
