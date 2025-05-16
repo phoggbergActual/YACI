@@ -16,6 +16,18 @@ Yaky was designed to support individual and team developers who range from loose
 - Updates `Version:` and `Commit Tag:` lines in source
 - Git commit and tag in one step
 - Cross-platform (Bash, PowerShell, CMD)
+
+### 🎧 Podcast
+
+Want to know why YACI exists and how it helps you version cleanly?
+
+> **Listen to Episode 1:**  
+> 🟢 [Why YACI Exists – A Developer’s Take on Version Discipline](https://phoggbergactual.github.io/YACI/podcast/YACI_Ep1.mp3)
+
+Subscribe via Apple Podcasts or your favorite app using this feed:  
+📡 [`https://phoggbergactual.github.io/YACI/podcast/podcast.xml`](https://phoggbergactual.github.io/YACI/podcast/podcast.xml)
+
+![YACI Podcast Cover](https://phoggbergactual.github.io/YACI/podcast/cover.jpg)
   
 ## 🔧 Configuration
 
