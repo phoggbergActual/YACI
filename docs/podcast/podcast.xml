@@ -2,23 +2,26 @@
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+<channel>
+  <title>YACI Tools for Better Software Development</title>
+  <link>https://github.com/phoggbergActual/YACI</link>
+  <description>A podcast for developers who care about versioning and traceability.</description>
+  <language>en-us</language>
+  <itunes:author>Barry Berg</itunes:author>
+  <author>Barry Berg</author>
+  <itunes:image href="https://phoggbergactual.github.io/YACI/podcast/cover.jpg"/>
+  <image>
+    <url>https://phoggbergactual.github.io/YACI/podcast/cover.jpg</url>
     <title>YACI Tools for Better Software Development</title>
     <link>https://github.com/phoggbergActual/YACI</link>
-    <description>A podcast for developers who care about versioning and traceability.</description>
-    <language>en-us</language>
-    <itunes:author>Barry Berg</itunes:author>
-    <itunes:explicit>false</itunes:explicit>
-    <itunes:category text="Technology"/>
-    <itunes:image href="https://phoggbergactual.github.io/YACI/podcast/cover.jpg"/>
-    <itunes:type>episodic</itunes:type>
-    <itunes:updatePeriod>irregular</itunes:updatePeriod>
-    <item>
-      <title>Episode 1: Why YACI Exists</title>
-      <description>The origin story and purpose behind Yet Another Check-In.</description>
-      <pubDate>Fri, 17 May 2024 12:00:00 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/phoggbergActual/YACI/main/docs/podcast/YACI_Ep1.mp3" length="20128085" type="audio/mpeg"/>
-      <guid>yaci-ep1</guid>
-    </item>
-  </channel>
+  </image>
+  <itunes:category text="Technology"/>
+  <item>
+    <title>Episode 1: Why YACI Exists</title>
+    <description>The origin story and purpose behind Yet Another Check-In.</description>
+    <pubDate>Fri, 17 May 2024 12:00:00 GMT</pubDate>
+    <enclosure url="https://raw.githubusercontent.com/phoggbergActual/YACI/main/docs/podcast/YACI_Ep1.mp3" length="20128085" type="audio/mpeg"/>
+    <guid>yaci-ep1</guid>
+  </item>
+</channel>
 </rss>
