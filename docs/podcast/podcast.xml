@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YACI Podcast</title>
+    <title>YACI: Tools for Better Software Development Without the Hassle</title>
     <link>https://github.com/phoggbergActual/YACI</link>
     <description>A podcast for developers who care about versioning and traceability.</description>
     <language>en-us</language>
     <itunes:image href="https://phoggbergactual.github.io/YACI/podcast/cover.jpg"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
     <item>
       <title>Episode 1: Why YACI Exists</title>
       <description>The origin story and purpose behind Yet Another Check-In.</description>
       <pubDate>Fri, 17 May 2024 12:00:00 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/phoggbergActual/YACI/main/docs/podcast/YACI_Ep1.mp3" length="20128985" type="audio/mpeg"/>
+      <enclosure url="https://raw.githubusercontent.com/phoggbergActual/YACI/main/docs/podcast/YACI_Ep1.mp3" length="20128085" type="audio/mpeg"/>
       <guid>yaci-ep1</guid>
     </item>
   </channel>
