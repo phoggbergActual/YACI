@@ -3,13 +3,16 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YACI: Tools for Better Software Development Without the Hassle</title>
+    <title>YACI Tools for Better Software Development</title>
     <link>https://github.com/phoggbergActual/YACI</link>
     <description>A podcast for developers who care about versioning and traceability.</description>
     <language>en-us</language>
-    <itunes:image href="https://phoggbergactual.github.io/YACI/podcast/cover.jpg"/>
-    <itunes:category text="Technology"/>
+    <itunes:author>Barry Berg</itunes:author>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://phoggbergactual.github.io/YACI/podcast/cover.jpg"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:updatePeriod>irregular</itunes:updatePeriod>
     <item>
       <title>Episode 1: Why YACI Exists</title>
       <description>The origin story and purpose behind Yet Another Check-In.</description>
